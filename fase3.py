@@ -358,7 +358,7 @@ if __name__ == "__main__":
         nombre_receptor=beta,
         llaves_receptor=consejo[beta],
 
-        mensaje="Activar protocolo Delta"
+        mensaje="Activar protocolo Delta..."
     )
 
     # Otro intercambio válido
@@ -369,7 +369,7 @@ if __name__ == "__main__":
         nombre_receptor=alfa,
         llaves_receptor=consejo[alfa],
 
-        mensaje="Ruta segura confirmada"
+        mensaje="Ruta segura confirmada..."
     )
 
     # Intercambio con sabotaje
@@ -380,7 +380,7 @@ if __name__ == "__main__":
         nombre_receptor=gamma,
         llaves_receptor=consejo[gamma],
 
-        mensaje="Confirmado",
+        mensaje="Confirmado...",
 
         sabotaje=True
     )
